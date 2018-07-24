@@ -16,5 +16,8 @@
       "value": ""
     }
   },
-  "addons": [ "mongolab" ]
+  "addons": [ 
+    "mongolab",
+    "einstein-vision:starter"
+  ]
 }
