@@ -7,7 +7,7 @@
         "nano": "~5.11.0",
         "node-red": "~0.x",
         "node-red-contrib-admin": "0.x",
-        "node-red-contrib-atelierhi-eps": "^1.0.3",
+        "node-red-contrib-atelierhi-eps": "^1.0.6",
         "redis": "~0.10.1",
         "when": "~3.x"
     }
