@@ -1,6 +1,6 @@
 # node-red-heroku-with-orchestrator
 
-This is a wrapper for deploying [Node-RED](http://nodered.org) with ["UiPath Orchestrator" node](https://www.npmjs.com/package/@uipath/node-red-contrib-uipath-orchestrator) into the [Heroku](https://www.heroku.com).
+This is a wrapper for deploying [Node-RED](http://nodered.org) with ["UiPath Orchestrator" node](https://www.npmjs.com/package/@uipath/node-red-contrib-uipath-orchestrator) into [Heroku](https://www.heroku.com).
 
 ### Deploying Node-RED with UiPath Orchestrator node into Heroku
 
