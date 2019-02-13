@@ -15,9 +15,5 @@
       "description": "The password to secure the editor.",
       "value": ""
     }
-  },
-  "addons": [ 
-    "mongolab",
-    "einstein-vision:starter"
-  ]
+  }
 }
