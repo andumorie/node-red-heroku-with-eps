@@ -33,15 +33,9 @@ var settings = module.exports = {
     // post-deploy are restored after a restage
     autoInstallModules: true,
 
-    // Move the admin UI
-    httpAdminRoot: '/red',
-
     // You can protect the user interface with a userid and password by using the following property
     // the password must be an md5 hash  eg.. 5f4dcc3b5aa765d61d8327deb882cf99 ('password')
-    //httpAdminAuth: {user:"user",pass:"5f4dcc3b5aa765d61d8327deb882cf99"},
-
-    // Serve up the welcome page
-    httpStatic: path.join(__dirname,"public"),
+    httpAdminAuth: {user: "NodeRED_User", pass: "03941b924d12454219648d61a7b025e1"},
 
     functionGlobalContext: { },
 
