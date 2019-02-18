@@ -35,7 +35,7 @@ var settings = module.exports = {
 
     // You can protect the user interface with a userid and password by using the following property
     // the password must be an md5 hash  eg.. 5f4dcc3b5aa765d61d8327deb882cf99 ('password')
-    httpAdminAuth: {user: "NodeRED_User", pass: "03941b924d12454219648d61a7b025e1"},
+    // httpAdminAuth: {user: "NodeRED_User", pass: "03941b924d12454219648d61a7b025e1"},
 
     functionGlobalContext: { },
 
