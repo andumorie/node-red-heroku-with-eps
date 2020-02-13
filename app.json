@@ -15,5 +15,10 @@
       "description": "The password to secure the editor.",
       "value": ""
     }
-  }
+  },
+  "addons": [
+    {
+      "plan": "mongolab:sandbox"
+    }
+  ]
 }
