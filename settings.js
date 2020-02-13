@@ -22,10 +22,7 @@ var settings = module.exports = {
     mqttReconnectTime: 15000,
     serialReconnectTime: 15000,
     debugMaxLength: 10000000,
-    storageModule: require("node-red-mongo-storage-plugin"),
-    storageModuleOptions: {        
-        mongoUrl: process.env.MONGODB_URI
-    },
+    storageModule: require("./mongostorage"),
 
     // Add the nodes in
     nodesDir: path.join(__dirname, "nodes"),
@@ -72,3 +69,6 @@ if (process.env.NODE_RED_USERNAME && process.env.NODE_RED_PASSWORD) {
         }
     }
 }
+
+settings.mongoAppname = 'nodered';
+settings.mongoUrl = process.env.MONGODB_URI;
