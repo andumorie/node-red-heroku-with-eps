@@ -23,7 +23,9 @@ var settings = module.exports = {
     serialReconnectTime: 15000,
     debugMaxLength: 10000000,
     storageModule: require("node-red-mongo-storage-plugin"),
-    mongoUrl: process.env.MONGODB_URI,
+    storageModuleOptions: {        
+        mongoUrl: process.env.MONGODB_URI
+    },
 
     // Add the nodes in
     nodesDir: path.join(__dirname, "nodes"),
