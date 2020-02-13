@@ -7,6 +7,7 @@
         "nano": "~5.11.0",
         "node-red": "~0.x",
         "node-red-contrib-admin": "0.x",
+        "node-red-contrib-config": "^1.1.2",
         "node-red-contrib-uibuilder": "^1.0.12",
         "node-red-dashboard": "^2.13.2",
         "node-red-node-base64": "^0.1.3",
