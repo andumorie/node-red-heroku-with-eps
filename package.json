@@ -4,7 +4,7 @@
     "dependencies": {
         "@uipath/node-red-contrib-uipath-orchestrator": "latest",
         "feedparser": "~0.19.2",
-        "mongodb": "~2.1.x",
+        "mongodb": "~2.2.12",
         "nano": "~5.11.0",
         "node-red": "~0.x",
         "node-red-contrib-admin": "0.x",

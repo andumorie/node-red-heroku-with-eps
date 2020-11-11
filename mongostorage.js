@@ -54,7 +54,7 @@ function db() {
         if (!mongodb) {
             mongo.MongoClient.connect(settings.mongoUrl,
                 {
-                    useNewUrlParser: true,
+                    sslValidate: false,
                     db:{
                         retryMiliSeconds:1000,
                         numberOfRetries:3
